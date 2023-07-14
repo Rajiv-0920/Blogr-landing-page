@@ -535,6 +535,21 @@ footer > div {
     align-items: flex-start;
     gap: 80px;
   }
+  .sign-up {
+    color: var(--Lightred);
+    background-color: #fff;
+    background-image: none;
+    transition: 0.3s;
+  }
+  .sign-up:hover {
+    color: var(--White-text);
+    background-image: linear-gradient(
+      to left,
+      var(--Lightred),
+      var(--Verylightred)
+    );
+    background-color: transparent;
+  }
 }
 @media (min-width: 1050px) {
   html {
